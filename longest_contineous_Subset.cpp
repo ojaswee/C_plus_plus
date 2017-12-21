@@ -6,7 +6,7 @@ Find the length of the longest substring without repeating characters
 
 
 #include <string>  // for string
-#include <iostream> //for Cout, endl
+#include <iostream> //for cout, endl
 
 using namespace std;
 
@@ -50,7 +50,7 @@ void longestSubstring(string inputstring) {
 int main() {
 	string input;
 
-	//input = "aabcdefgbbcdafr";// Works for "ojasweeissad", abcabcbb, abcbefgha,aabcdefgbbcdafr, abcabcdbb,bbbbbb; 
+	//input = "aabcdefgbbcdafr"; 
 
 	std::cout << "Please input your value:" << endl;
 	getline(cin, input);
