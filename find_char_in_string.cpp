@@ -5,7 +5,7 @@ Find char int the given string
 */
 
 #include <string>  // for string
-#include <iostream> //for Cout, endl
+#include <iostream> //for cout, endl
 using namespace std;
 
 void print(string x, int y) {     // to print
