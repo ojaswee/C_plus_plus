@@ -1,0 +1,40 @@
+/* HackerRank question C++/Strings/Strings
+Get 2 strings from user then 
+output 
+1) In the first line print two space-separated integers, representing the length of and respectively.
+2) In the second line print the string produced by concatenating and ().
+3) In the third line print two strings separated by a space, with their first characters are swapped.
+*/
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+void manipulateStrings(){
+    string a , b ; 
+    getline(cin, a);
+    getline(cin, b);
+    int sizeA, sizeB; 
+    sizeA = a.size();
+    sizeB = b.size();
+
+    cout<< sizeA<<" "<<sizeB<<endl <<a+b<<endl;
+    
+    //swap first char of strings
+   char temp = a[0];
+    a[0]=b[0];
+    b[0]=temp;
+    
+    //print one string after another
+    for( int i= 0 ; i<sizeA; i++)
+            cout<<a[i];
+
+    cout<<" ";
+    for( int i= 0 ; i<sizeB; i++)
+            cout<<b[i]; 
+}
+
+int main() {
+    manipulateStrings();
+    return 0;
+}
