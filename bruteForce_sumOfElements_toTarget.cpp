@@ -1,7 +1,8 @@
 /*
 Name: Ojaswee Dhungana
 C++
-Find target by brute force, if pairs/tuples from an array sum up to target
+Find target by brute force 
+If pairs or tuples from an array find the pair or tuples which will add up to target
 */
 
 #include <iostream> //for cout, endl
