@@ -1,8 +1,13 @@
+/*
+We can use different methods to find Fibonacci number. I have used recursion and dynamic programing method here. 
+Fibonacci numbers are: 1, 1, 2, 3, 5, 8,...
+*/
+
 # include <iostream>
 
 using namespace std;
 
-//Using recurssion
+//Using recursion
 int fibonacci(int num) {
 	//num cannot be negative number
 	if (num < 0) {
