@@ -1,7 +1,7 @@
 /*
 Name: Ojaswee Dhungana
 C++ 
-Find char int the given string
+Find all unique characters in the given string
 */
 
 #include <string>  // for string
@@ -23,7 +23,7 @@ void deleteSpace(string a) {// after repeted char are replaced with space remove
 		if (isspace(a[i])) { // if there is space skip this char
 			continue;
 		}
-		else { //if no space keep int the array
+		else { //if no space keep in the array
 			inChar[j] = a[i];
 			++j;
 		}
@@ -31,7 +31,7 @@ void deleteSpace(string a) {// after repeted char are replaced with space remove
 	print(inChar, j);
 }
 
-void checkRepetion(string a) { // check if the charecters are repeted
+void checkRepetion(string a) { // check if the charecters are repeted if so replace with space
 	int size = a.length();
 	cout << "Your input was: " << a << endl; // show user their input
 	for (int i = 0; i < size; i++) {
